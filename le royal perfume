@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Royal Perfume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #555;
+        }
+
+        nav a {
+            padding: 1rem 2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .product-item img {
+            width: 100%;
+            display: block;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Le Royal Perfume</h1>
+        <p>Luxury scents from around the world</p>
+    </header>
+
+    <nav>
+        <a href="#perfume">Perfume</a>
+        <a href="#musks">Musks</a>
+        <a href="#bakour">Bakour</a>
+        <a href="#air-freshner">Air Freshner</a>
+    </nav>
+
+    <section id="perfume">
+        <h2>Perfume</h2>
+        <div class="product-grid">
+            <!-- add images for perfume scents here -->
+            <!-- example: <div class="product-item"><img src="images/perfume1.jpg" alt="Perfume 1" /></div> -->
+        </div>
+    </section>
+
+    <section id="musks">
+        <h2>Musks</h2>
+        <div class="product-grid">
+            <!-- add images for musks here -->
+        </div>
+    </section>
+
+    <section id="bakour">
+        <h2>Bakour</h2>
+        <div class="product-grid">
+            <!-- add images for bakour scents here -->
+        </div>
+    </section>
+
+    <section id="air-freshner">
+        <h2>Air Freshner</h2>
+        <div class="product-grid">
+            <!-- add images for air freshner scents here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Le Royal Perfume. All rights reserved.</p>
+    </footer>
+</body>
+</html>
